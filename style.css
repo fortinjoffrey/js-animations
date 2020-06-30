@@ -49,10 +49,18 @@ h2 {
   max-height: 1080px;
 }
 
-.will-appear-div {
+.must-appear-div {
   padding: 30px;
   border-radius: 10px;
   background-color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.show-appear-div {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .empty-section {
